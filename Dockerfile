@@ -8,4 +8,6 @@ run mkdir /workspace
 workdir /workspace
 copy dispense .
 
-cmd python manage.py runserver 0.0.0.0:8000
+copy dispense/start.sh /start.sh
+
+cmd /start.sh
