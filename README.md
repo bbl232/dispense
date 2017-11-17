@@ -1,5 +1,5 @@
 # Dispense
-A license manager server
+A license management server
 
 ## About
 This project is a service to store and dispense licenses to software as needed. Especially as new infrastructure is built.
